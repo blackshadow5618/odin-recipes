@@ -201,14 +201,16 @@ body{
 
 
 /* ----------------------------  Description Section ------------------------ */
-.description .lead{
-    margin: 1rem 0;
+.description.container{
+    margin-top: 4rem;
 }
 
-.description pre{
-    font-size: 1rem;
-    text-transform: capitalize;
-    color: #777;
+.description h1{
+    margin-bottom: 1.5rem;
+}
+
+.description .lead{
+    margin: 1rem 0;
 }
 
 .step-container .steps{
