@@ -124,7 +124,7 @@ body{
 }
 
 .img-container{
-    width: 80%;
+    width: 90%;
     border-radius: 10px;
     border: 1px solid var(--color);
 
@@ -270,6 +270,7 @@ body{
 
 .footer-section .ads-part a:first-child:hover{
     background: tomato;
+    color: var(--color);
 }
 
 
@@ -318,14 +319,14 @@ body{
 
     .container{
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .container h1{
         font-size: 1.5rem;
     }
 
-    .container p{
+    .container h3 + p{
         font-size: 0.9rem;
         color: #777;
     }
@@ -347,19 +348,41 @@ body{
         margin-right: 20px;
     }
 
-    .need-container, .description, .step-container, .facts, .footer-section{
+    .need-container, 
+    .description, 
+    .steps-container, 
+    .facts, 
+    .footer-section,
+    .footer .container{
         width: 90%;
         text-align: left;
+        margin: 5rem auto;
+    }
+
+    .footer .container{
         margin: auto;
     }
 
     .infos-part{
-        font-size: 0.8rem;
+        width: 65%;
+        font-size: 0.7rem;
+    }
+
+    .col2-part{
+        width: 65%;
+    }
+
+    .facts .details{
+        width: calc(100% / 2);
+    }
+
+    .footer h4, .footer span{
+        font-size: 1rem;
     }
 }
 
 
-@media (max-width: 550px) {
+@media (max-width: 650px) {
     .details h4{
         font-size: 0.9rem;
     }
