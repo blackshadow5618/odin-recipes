@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/5403/5403020.png" type="image/png" />
     <link rel="stylesheet" href="./recipes/style.css">
 </head>
 <body>
 
     <!-- Dark Mode  -->
     <div class="theme-container">
-        <button id="light-btn" class="btn">Light</button>
-        <button id="dark-btn" class="btn">Dark</button>
+        <button id="dark-btn" class="btn"><span>L</span> / <span>D</span></button>
     </div>
 
-    <div class="container">
+    <div class="home">
         <h1 style="text-transform: uppercase; font-size: 3rem;">Odin Recipes</h1>
-        <ul class="recipes-list">
+        <ul class="recipes-list flex-center">
             <li>
                 <div>
                     <div class="recipe-name">
@@ -44,8 +44,13 @@
             
         </ul>
     </div>
-    
 
+    <footer class="footer home-footer">
+        <div class="flex-center">
+            <h4>Odin Recipes</h4>
+            <span>&copy;BlackShadow <span>2024</span></span>
+        </div>
+    </footer>
     
 
 <script src="./app.js"></script>
