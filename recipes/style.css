@@ -92,6 +92,10 @@ body{
     margin: 0 1rem;
 }
 
+.main-title + .lead{
+    text-align: center;
+}
+
 /* ------------------------- Recipe Section ------------------- */
 .home{
     text-align: center;
@@ -249,11 +253,18 @@ body{
 }
 
 .facts .details{
-    width: calc(100% / 3);
+    width: calc(100% / 2.5);
     justify-content: space-between;
     margin: 1rem 0;
 }
 
+.facts .details li{
+    margin: 0 1rem;
+}
+
+.facts .details li:first-child{
+    margin: 0;
+}
 
 /*---------------------------- Footer Section -------------------- */
 .footer-section{
@@ -393,9 +404,13 @@ body{
     .col2-part{
         width: 65%;
     }
-    
+
     .facts .details{
-        width: calc(100% / 2);
+        width: 100%;
+    }
+
+    .facts .details li:first-child{
+        margin: 0 1rem;
     }
     
     .footer h4, .footer span{

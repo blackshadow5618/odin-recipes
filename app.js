@@ -22,8 +22,13 @@ Images.forEach((img)=> {
     img.addEventListener('click', ()=>{
         console.log(img.src);
 
-        document.querySelector('.modal-box').style.display = 'flex';
-        modalImg.src = img.src;    
+        modalImg.src = img.src;
+        
+        if(document.querySelector('.recipe-name + a img')){
+            document.querySelector('.modal-box').style.display = 'none';
+        }else{
+            document.querySelector('.modal-box').style.display = 'flex';
+        }
     })
 
 })
