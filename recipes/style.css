@@ -76,7 +76,7 @@ body{
 
 .container{
     width: 70%;
-       
+
     margin: auto;
     margin-top: 5rem;
 }
@@ -87,6 +87,10 @@ body{
     /* margin: 0 1rem; */
 }
 
+.main-title{
+    text-align: center;
+    margin: 0 1rem;
+}
 
 /* ------------------------- Recipe Section ------------------- */
 .home{
@@ -123,6 +127,7 @@ body{
 
 .container .chef-name{
     color: steelblue;
+    margin: 0 1rem;
 }
 
 .container .lead{
@@ -411,7 +416,7 @@ body{
         width: 80px;
         height: 80px;
     }
-    
+
     .details{
         flex-wrap: wrap;
     }
@@ -455,7 +460,7 @@ body{
 
 .modal-box .box{
     /* width: 60%; */
-    height: 80vh;
+    height: 70vh;
     border-radius: 10px;
     box-shadow: 0px 0px 5px var(--color);
     margin: auto;
